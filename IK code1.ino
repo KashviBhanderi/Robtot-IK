@@ -1,4 +1,4 @@
-//code for inverse kinematics of 3-dof
+//code for inverse kinematics of 3-dof, that covers all the cases
 #include <Braccio.h>
 #include <Servo.h>
 #include<math.h> 
