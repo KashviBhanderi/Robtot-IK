@@ -1,3 +1,4 @@
+// This is the code that we came up with for the simplest case of orientation of robotic arm, the other code covers all cases.
 #include <Braccio.h>
 #include <Servo.h>
 #include<math.h> 
@@ -59,4 +60,4 @@ void inversekinematics(float theta,float X,float Y)
   Serial.print("theta3 = "); 
   Serial.print(theta3*RAD_2_DEG);  
 }
-//code by kashvi
+
